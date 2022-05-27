@@ -1,6 +1,6 @@
 ﻿const ageQuestion = confirm('Есть ли вам 18 лет?');
 if (ageQuestion) {
-    const timeGetUp = +(prompt('Во сколько вы встаете?'));
+    const timeGetUp = +prompt('Во сколько вы встаете?');
     if (Number.isInteger(timeGetUp)) {
         if (timeGetUp <= 0 || timeGetUp > 24) {
             alert('Научись пользоваться часами!');
